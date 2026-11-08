@@ -1,0 +1,239 @@
+*{
+   
+   font-family: "Oswald", sans-serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+#check {
+    display: none;
+}
+
+.icons {
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    right: 5%;
+    display: none;
+}
+/*-------------------------------------- home ----------------------*/
+.collapse{
+    padding: 10px 0px 10px 300px;
+    font-size: 25px;
+}
+.nameHead{
+    font-size: 50px;
+}
+#closerId{
+    font-size:70px;
+    color: rgb(5, 27, 5);
+}
+#forestrId{
+     font-size:20px;
+    color:brown
+}
+#poolImage{
+    max-width: 100%;
+    display: block;
+}
+.row1{
+    gap: 100px;
+}
+#carouselImage{
+    border-radius: 20px;
+}
+.hero-section {
+  background: url(https://media.cntraveler.com/photos/6ac57d0460b818bd5be7947d/4:3/w_2540,h_1905,c_limit/Soori%20Bali-SooriBali_Peninsula_001.jpg); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 100vh;
+}
+.hero-title {
+  font-size: 3rem;
+}
+.hero-subtitle {
+  font-size: 1.75rem;
+  line-height: 1.6;
+}
+/*--------------------------------------- ourpackages -----------------------------------------------*/
+.ourpack{
+    padding: 160px 8%;
+    background: url(./images/background.avif);
+}
+#ourpackHead{
+font-size: 80px;
+}
+#rainforestId{
+    font-size: 60px;
+    font-weight: 600;
+}
+.newtag{
+     position: absolute;
+    top: 30px;
+    left: 600px;
+    background-color: rgb(168, 164, 164);
+    color: rgb(5, 36, 5);
+    padding: 6px 14px;
+    border-radius: 10px;
+
+}
+.newtag1{
+    position: absolute;
+    left: 370px;
+    top:30px ;
+    background-color: rgb(168, 164, 164);
+    color: rgb(5, 36, 5);
+     padding: 6px 14px;
+    border-radius: 10px;
+}
+.newtag3{
+    position: absolute;
+    left: 1600px;
+    top: 2000px;
+   background-color:rgb(168, 164, 164);
+    color: rgb(6, 33, 6);
+     padding: 6px 14px;
+    border-radius: 10px;
+}
+.card1{
+    background-color: rgb(6, 33, 6);
+    border-radius: 20px;
+    border-style: solid;
+}
+.spaClass{
+    padding: 160px 8%;
+}
+/*--------------------------------- spa and wellness section  -----------------------------------*/
+#spaHead{
+    font-size: 70px;
+    padding-bottom: 10px;
+ }
+
+
+ /*------------------------------------------------- plan your stay section  ------------------------------------------------ */
+
+.planyourstayClass{
+     padding: 160px 8%;
+    background: url(./images/background.avif);
+}
+#planHead{
+    font-size: 80px;
+}
+.plandateContainer{
+   
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    width: 800px;
+    align-items: center;
+}
+/*------------------------------------------------------- adventure section  ---------------------------------------------------*/
+
+.adventureContainer{
+    padding: 160px 8%;
+}
+#adventureId{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.adventureDiv{
+    padding: 0px 0px 0px 80px;
+}
+
+
+/*---------------------------------------------- media query  --------------------------------------------------------*/
+
+.icons {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: #198754; 
+}
+
+
+#cancelIcon {
+  display: none;
+}
+
+
+#check {
+  display: none;
+}
+
+
+@media (max-width: 993px) {
+  .icons {
+    display: block;
+  }
+
+ 
+  .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--bs-body-bg, #fff);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    display: none; 
+  }
+
+ 
+  #check:checked ~ .navbar-collapse {
+    display: flex;
+  }
+
+  
+  #check:checked ~ .icons #menuIcon {
+    display: none;
+  }
+
+  #check:checked ~ .icons #cancelIcon {
+    display: block;
+  }
+
+  .navbar-nav {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .navbar-nav .nav-item {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  .navbar-collapse form {
+    width: 100%;
+  }
+
+  .navbar-collapse form button {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .hero-section {
+    height: auto; 
+    min-height: 100vh; 
+    padding: 40px 0;
+  }
+  .hero-title {
+    font-size: 1.8rem; 
+  }
+  .hero-subtitle {
+    font-size: 1.1rem; 
+    text-align: center; 
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .hero-title {
+    font-size: 2.3rem;
+  }
+  .hero-subtitle {
+    font-size: 1.4rem;
+  }
+}

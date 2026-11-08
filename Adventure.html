@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resort</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <!---------------------------------------------------- resort favicon -------------------------------------- -->
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+
+    <!--------------------------------------------------- font awesome logo icon ----------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-------------------------------------------------- google font  --------------------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Redaction:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+
+    <!---------------------------------- bootstrap cdn link  ----------------------------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+
+</head>
+<!-- bootstrap link  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+<body>
+
+
+    <!----------------------------------------------------- navbar ------------------------------------------->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container">
+            <a href="/" class="navbar-brand"> <img class="navbar-nav me-5" src="./images/logo.jpg " width="100px"
+                    height="100px" alt=""></a>
+                     <input type="checkbox" name="" id="check">
+           <label for="check" class="icons">
+            <i class="fa-solid fa-bars" id="menuIcon"></i>
+            <i class="fa-regular fa-circle-xmark" id="cancelIcon"></i>
+           </label>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-success me-2" aria-current="page" href="/">The Resort</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-success me-2" aria-current="page" href="./ourpack.html">Our
+                            Packges</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-success me-2" href="./spawellness.html">Spa & Wellness</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-success me-2" href="./Adventure.html">Adventures</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-success me-2" href="./findus.html">Find Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search" action="./planyourstay.html">
+                    <button class="btn btn-outline-success me-5" type="submit">Plan Your Stay↗</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-------------------------------------- adventure section  ------------------------------------->
+    <section class="adventureContainer">
+        <h1 class="text-center fw-bold text-success" id="adventureId">Nature & Adventure Experiences</h1>
+        <p class="text-success fs-2 fw-5 text-center mb-5">Forest Nest's wilderness is your playground—from canopy-level
+            thrills to stream-side explorations</p>
+        <div class="adventureDiv">
+            <div class="row1 row g-5">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                    <div class="card" style="width: 400px;">
+                        <img id="poolImage" src="./images/hangingbridge.webp" class="card-img-top" alt="No image">
+                        <div class="card-body">
+                            <h5 class="card-title fs-3">Hanging Bridge Walk</h5>
+                            <p class="fs-5">Walk 150 feet above the forest floor on our iconic suspended bridge. Morning
+                                mist, bird songs, and valley views create an unforgettable sensory experience.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                    <div class="card" style="width: 400px;">
+                        <img src="./images/zipline.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fs-3">Zip Line Through Canopy</h5>
+                            <p class="fs-5">Soar 300 meters through three forest zones at 40 km/hour. Feel your heart
+                                race as you fly like Wayanad's birds through changing ecosystems.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                    <div class="card" style="width: 400px;">
+                        <img src="./images/poolexp.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fs-3">Infinity Pool Experience</h5>
+                            <p class="fs-5">A naturally fed pool that stays at the hills’ own temperature, cool &
+                                refreshing, with panoramic views across the valley. Separate children’s section and sun
+                                loungers.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <div class="adventureDiv">
+            <div class="row1 row g-5">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                    <div class="card" style="width: 400px;">
+                        <img id="poolImage" src="./images/archery.webp" class="card-img-top" alt="No image" height="263px">
+                        <div class="card-body">
+                            <h5 class="card-title fs-3">Archery Experience</h5>
+                            <p class="fs-5">Learn traditional bow and arrow techniques in our forest-surrounded range. Connection to Kerala's Kalaripayattu martial arts heritage.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                    <div class="card" style="width: 400px;">
+                        <img src="./images/waterfall.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fs-3">Stream Walk & Waterfall</h5>
+                            <p class="fs-5">Wade through crystal-clear Karanchi stream to our 40-foot artificial waterfall. Safe swimming in natural pool setting with lifeguard supervision.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                    <div class="card" style="width: 400px;">
+                        <img src="./images/guide.webp" class="card-img-top" alt="..."  height="240px">
+                        <div class="card-body">
+                            <h5 class="card-title fs-3">Guided Nature Trails</h5>
+                            <p class="fs-5">Nature walk with resort team through diverse trails. Learn to identify 50+ plants, spot rare butterflies, and understand Western Ghats ecology.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer
+        style="background: url(https://img.magnific.com/free-photo/luxury-plain-green-gradient-abstract-studio-background-empty-room-with-space-your-text-picture_1258-71028.jpg?semt=ais_hybrid&w=740&q=80);">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 text-left mt-5 mb-4 ps-5 text-light">
+                <h3> Forest Nest Resort</h3>
+                <h4>Athirappilly, Kerala</h4>
+                <h4>Front desk on WhatsApp: 9846606012</h4>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12"></div>
+        </div>
+    </footer>
+</body>
